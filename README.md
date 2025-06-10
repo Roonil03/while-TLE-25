@@ -1,2 +1,2 @@
-# while-TLE-25
+# while(!TLE)'25
 IECSE's Members only vacation contest.
