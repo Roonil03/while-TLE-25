@@ -1,5 +1,5 @@
 #include <fstream>
-#include "../testlib.h"
+#include "../../testlib.h"
 #include <iostream>
 #include <vector>
 #include <stack>
@@ -33,17 +33,17 @@ void writeTest(int z) {
     fstream test("InputDriftRacinngClash" + num + ".txt", ios::app);
     fstream answer("OutputDriftRachingClash" + num + ".txt", ios::app);
 
-    int t = rnd.next(1, 100); // Corrected: t ≤ 100
+    int t = rnd.next(1, 100); 
     test << t << endl;
 
     while (t--) {
-        int n = rnd.next(2, 10000); // n between 2 and 10^4
+        int n = rnd.next(2, 10000); 
         test << n << endl;
 
         vector<int> cars(n);
         for (int i = 0; i < n; i++) {
-            int size = rnd.next(1, 1000);      // size between 1 and 1000
-            int dir = rnd.next(0, 1) ? 1 : -1;  // direction either +1 or -1
+            int size = rnd.next(1, 1000);      
+            int dir = rnd.next(0, 1) ? 1 : -1;  
             cars[i] = dir * size;
             test << cars[i] << " ";
         }
@@ -62,7 +62,7 @@ void writeTest(int z) {
 
 int main(int argc, char* argv[]) {
     registerGen(argc, argv, 1);
-    for (int no = 0; no < 3; no++)
+    for (int no = 0; no < 4; no++)
         writeTest(no);
     return 0;
 }
