@@ -9,15 +9,20 @@ bool isMerged(const string& x, const string& y, const string& z) {
     if (x.size() + y.size() != z.size()) return false;
     int m = x.size(), n = y.size();
     vector<vector<bool>> dp(m + 1, vector<bool>(n + 1, false));
-    dp[0][0] = true;
+
     for (int i = 0; i <= m; ++i) {
         for (int j = 0; j <= n; ++j) {
-            if (i > 0 && x[i - 1] == z[i + j - 1])
-                dp[i][j] = dp[i][j] || dp[i - 1][j];
-            if (j > 0 && y[j - 1] == z[i + j - 1])
-                dp[i][j] = dp[i][j] || dp[i][j - 1];
+            if (i == 0 && j == 0) {
+                dp[i][j] = true;
+            } else {
+                if (i > 0 && x[i - 1] == z[i + j - 1])
+                    dp[i][j] = dp[i][j] || dp[i - 1][j];
+                if (j > 0 && y[j - 1] == z[i + j - 1])
+                    dp[i][j] = dp[i][j] || dp[i][j - 1];
+            }
         }
     }
+
     return dp[m][n];
 }
 
@@ -47,7 +52,7 @@ void writeTest(int fileNum) {
     ofstream output("SignalOutput" + num + ".txt");
 
     int T = rnd.next(1, 100);
-    input << T << endl;
+    input << T << '\n';
 
     for (int t = 0; t < T; ++t) {
         int len1 = rnd.next(0, 100);
@@ -62,7 +67,6 @@ void writeTest(int fileNum) {
         } else {
             int len3 = len1 + len2;
             z = randomString(len3);
-            // Ensure it's not accidentally valid
             while (isMerged(x, y, z)) {
                 z = randomString(len3);
             }
@@ -78,7 +82,7 @@ void writeTest(int fileNum) {
 
 int main(int argc, char* argv[]) {
     registerGen(argc, argv, 1);
-    for (int i = 0; i < 3; ++i)
+    for (int i = 0; i < 4; ++i)
         writeTest(i);
     return 0;
 }
