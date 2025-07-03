@@ -1,32 +1,3 @@
-“The Vanishing Scrolls”
-
-In the ancient library of Numaria, a wise scribe named Oren was tasked with preserving a series of magical scrolls. These scrolls were uniquely numbered and stored in strictly increasing order, starting from 1 and going infinitely.
-
-However, during a raid by shadow bandits, some scrolls mysteriously vanished from the archive. Oren managed to record the scrolls that remained, but now he needs your help.
-
-He provides you with a list of scroll numbers that survived the attack — all of them in increasing order and without duplicates. He also gives you a number k, and asks:
-
-"What is the number of the kth scroll that was stolen?"
-
-Your task is to retrieve this number for Oren before the High Council realizes what’s missing.
-
-
-
-Example 1:
-
-Input: arr = [2,3,4,7,11], k = 5
-Output: 9
-Explanation: The missing positive integers are [1,5,6,8,9,10,12,13,...]. The 5th missing positive integer is 9.
-Example 2:
-
-Input: arr = [1,2,3,4], k = 2
-Output: 6
-Explanation: The missing positive integers are [5,6,7,...]. The 2nd missing positive integer is 6.
- 
-
-Constraints:
-
-1 <= arr.length <= 1000
-1 <= arr[i] <= 1000
-1 <= k <= 1000
-arr[i] < arr[j] for 1 <= i < j <= arr.length
+version https://git-lfs.github.com/spec/v1
+oid sha256:d04d14e8aca0939163e97e109a3dbf8510f1892d85c098b11be213de2fb99d18
+size 1236

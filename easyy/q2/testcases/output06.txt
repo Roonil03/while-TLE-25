@@ -1,1 +1,3 @@
-aw ax ay az bw bx by bz cw cx cy cz
+version https://git-lfs.github.com/spec/v1
+oid sha256:9c5bba261c134b77c911c5a2177fac01b18ec9da5d98c76add4240536712f463
+size 37

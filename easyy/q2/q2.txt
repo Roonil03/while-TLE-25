@@ -1,27 +1,3 @@
-Whispers of the Stone Oracle
-
-In the ancient realm of Etherya, the Stone Oracle speaks only in riddles — cryptic sequences of digits carved into enchanted tablets. Each digit from 2 to 9 holds the power to invoke one of several arcane runes, and each rune has a unique letter-shaped symbol.
-
-Only the most skilled scribes can decipher the true messages behind these sequences, by unfolding every possible way the Oracle’s digits might translate into letters.
-
-The monks of the High Tower present to you a sacred sequence of digits. Your task is to reveal all possible incantations the Oracle may have encoded in that sequence — each a combination of rune-symbols corresponding to the digits, in order.
-
-
-Example 1:
-
-Input: digits = "23"
-Output: ["ad","ae","af","bd","be","bf","cd","ce","cf"]
-Example 2:
-
-Input: digits = ""
-Output: []
-Example 3:
-
-Input: digits = "2"
-Output: ["a","b","c"]
- 
-
-Constraints:
-
-0 <= digits.length <= 4
-digits[i] is a digit in the range ['2', '9'].
+version https://git-lfs.github.com/spec/v1
+oid sha256:6aa27735f4203f9b3f4aa33c797bf20339b3259181b64df484d1bc50addbf7ac
+size 1008
