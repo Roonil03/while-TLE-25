@@ -45,7 +45,7 @@ Thank you to everyone who participated and made this event a memorable success!
 - <a href="https://github.com/weird-akshat">Akshat Pandey</a>
 - <a href="https://github.com/Diptarkaa">Diptarkaa</a>
 
-### Evalutors:
+### Evaluators:
 - <a href="https://github.com/Roonil03">Roonil03</a>
 - <a href="https://github.com/AdityaSinha149">Aditya Sinha</a>
 - <a href="https://github.com/weird-akshat">Akshat Pandey</a>
