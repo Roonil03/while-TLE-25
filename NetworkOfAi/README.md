@@ -19,7 +19,8 @@ For each network segment:
 
 The connections form a valid tree structure - the digital backbone of Neo-Tokyo's communication grid.
 
-### For each network segment, output a single integer representing the number of beautiful paths Alice can discover.
+### Output:
+For each network segment, output a single integer representing the number of beautiful paths Alice can discover.
 
 A beautiful path connects two nodes with identical encryption signatures, with no intermediate nodes sharing that same signature. Each path represents a fragment of Bob's encoded love letter.
 
@@ -35,5 +36,6 @@ A beautiful path connects two nodes with identical encryption signatures, with n
 
 - All connections form valid tree structures
 
+### Check the samples <a href="https://github.com/Roonil03/while-TLE-25/tree/main/NetworkOfAi/Tests/SampleCases/">here</a>
 
 ### *Question designed by <a href="https://github.com/Roonil03">Roonil03</a>
