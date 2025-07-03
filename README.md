@@ -8,32 +8,32 @@ Thank you to everyone who participated and made this event a memorable success!
 ## Leaderboard:
 | Position | Name |
 |---|---|
-| 1 🥇 | Advita Shrivastava |
-| 2 🥈 | Anurag Kumar |
-| 3 🥉 | Abhuday Gupta |
-| 4 🏅 | Divyansh Sirohi |
-| 5 🏅 | Lakshay Jain |
-| 6 | Samridhi Dhamija |
-| 7 | V S Hariharan |
-| 8 | Yashovardhan Singh |
-| 9 | Nayantara Nambiar |
-| 10 | Charita Gowda |
-| 11 | Abhishek Jayanth Holla |
-| 12 | Hiten Raj Singh |
-| 13 | Animesh Kumar |
-| 14 | Jayasree Madireddy |
-| 15 | Krithika Harish Padmashali |
-| 16 | Manya Kalra |
-| 17 | Acharya Nishad |
-| 18 | Tanseer Ahmad |
-| 19 | Om Uday Dhondge |
-| 20 | Prateek Pai |
-| 21 | Rohit Nema |
-| 22 | Prakhar Umrao |
-| 23 | Sasmit |
-| 24 | Aman Garg |
-| 25 | Sudhiksha Shanbhag |
-| 26 | Sumanth Shetty |
+|<div align="center"> 1 🥇</div> | Advita Shrivastava |
+|<div align="center"> 2 🥈</div>| Anurag Kumar |
+|<div align="center"> 3 🥉</div> | Abhuday Gupta |
+|<div align="center"> 4 🏅</div> | Divyansh Sirohi |
+|<div align="center"> 5 🏅</div> | Lakshay Jain |
+|<div align="center"> 6 </div>| Samridhi Dhamija |
+|<div align="center"> 7 </div>| V S Hariharan |
+|<div align="center"> 8 </div>| Yashovardhan Singh |
+|<div align="center"> 9 </div>| Nayantara Nambiar |
+|<div align="center"> 10 </div>| Charita Gowda |
+|<div align="center"> 11 </div>| Abhishek Jayanth Holla |
+|<div align="center"> 12 </div>| Hiten Raj Singh |
+|<div align="center"> 13 </div>| Animesh Kumar |
+|<div align="center"> 14 </div>| Jayasree Madireddy |
+|<div align="center"> 15 </div>| Krithika Harish Padmashali |
+|<div align="center"> 16 </div>| Manya Kalra |
+|<div align="center"> 17 </div>| Acharya Nishad |
+|<div align="center"> 18 </div>| Tanseer Ahmad |
+|<div align="center"> 19 </div>| Om Uday Dhondge |
+|<div align="center"> 20 </div>| Prateek Pai |
+|<div align="center"> 21 </div>| Rohit Nema |
+|<div align="center"> 22 </div>| Prakhar Umrao |
+|<div align="center"> 23 </div>| Sasmit |
+|<div align="center"> 24 </div>| Aman Garg |
+|<div align="center"> 25 </div>| Sudhiksha Shanbhag |
+|<div align="center"> 26 </div>| Sumanth Shetty |
 
 ## Team:
 
