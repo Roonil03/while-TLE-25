@@ -28,6 +28,7 @@ If no cars remain, print an **empty line**.
 
 ## Example Input
 
+```
 3
 3
 5 10 -5
@@ -35,6 +36,8 @@ If no cars remain, print an **empty line**.
 8 -8
 3
 10 2 -5
+```
+
 
 ## Example Output
 
