@@ -16,6 +16,7 @@ Your task is to find the **minimum number of conference rooms** required to sche
 ## Input
 
 - `events`: A list of `n` events, where each event is a list `[start, end]`.
+- Followed by n lines, each containing two space-separated integers start and end, representing the inclusive time range of each event.
 
 ## Constraints
 
